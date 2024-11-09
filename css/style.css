@@ -6,8 +6,8 @@ body {
 }
 
 .square {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 
 .lox{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 @keyframes moveAndColor {
@@ -26,15 +26,15 @@ body {
         background-color: #4CAF50;
     }
     25% {
-        transform: translate(200px, 0);
+        transform: translate(150px, 0);
         background-color: #FF5722;
     }
     50% {
-        transform: translate(200px, 200px);
+        transform: translate(150px, 150px);
         background-color: #2196F3;
     }
     75% {
-        transform: translate(0, 200px);
+        transform: translate(0, 150px);
         background-color: #9C27B0;
     }
     100% {
